@@ -1,6 +1,8 @@
 # kde-breeze-pin-sddm
 An edited version of the Breeze SDDM/Lock Screen that includes a number pin input.
 
+![preview](pin-sddm.png)
+
 ## Installation
 There is not yet an official theme, so you need to patch the theme together manually:
 ```sh
