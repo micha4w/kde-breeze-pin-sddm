@@ -33,6 +33,8 @@ PlasmaCore.ColorScope {
     width: 2160
     height: 1440
 
+    transform: Scale { origin.x: width*0.5; origin.y: height*0.5;  xScale: 1.25; yScale: 1.25 }
+
     property string notificationMessage
 
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
